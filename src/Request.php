@@ -164,7 +164,7 @@ class Request
      * @param  mixed $amount
      * @param  mixed $email
      * @param  mixed $des
-     * @return string
+     * @return object
      */
     
     public function generateFormForResponse($merchant_reference, $amount, $des, $fort_id)
